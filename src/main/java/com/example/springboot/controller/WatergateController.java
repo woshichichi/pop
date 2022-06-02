@@ -144,6 +144,8 @@ public class WatergateController {
         if (!"".equals(name)) {
             queryWrapper.like("name", name);
             System.out.println("ads");
+            System.out.println("as");
+            System.out.println("asdgasdg");
         }
 //        User currentUser = TokenUtils.getCurrentUser();
 //        if (currentUser.getRole().equals("ROLE_USER")) {
